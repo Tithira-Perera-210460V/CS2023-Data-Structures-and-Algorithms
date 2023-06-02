@@ -69,5 +69,5 @@ int main() {
                                             {0, 10, 0, 5, 0, 4},
                                             {1, 0, 5, 0, 4, 0} };
                         
-    Prims_algorithm(tphonePoleGraph, 3);
+    Prims_algorithm(tphonePoleGraph, 0);
 }
