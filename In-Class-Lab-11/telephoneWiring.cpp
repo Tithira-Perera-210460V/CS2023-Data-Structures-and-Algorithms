@@ -23,7 +23,7 @@ int findNextNode(vector<int> weight, vector<bool> visited) {
 // Displaying the obtained MST given the parent vertices and weights of edges
 void printMST(vector<int> parentList, vector<int> weightList) {
 
-    cout << "Edge \tWeight\n" << endl;
+    cout << "Edge \tWeight" << endl;
 
     for (int i = 0; i < parentList.size(); i++){
         if(parentList[i] != -1)
